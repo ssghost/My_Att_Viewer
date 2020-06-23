@@ -1,0 +1,4 @@
+tensorflow>=2.0.0a0
+Keras>=2.2.4
+h5py>=2.8.0 
+pandas>=1.0.5
