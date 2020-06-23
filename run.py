@@ -8,7 +8,7 @@ def main():
         print(err) 
         sys.exit()
 
-    tpath, opath, loadpath = '','',''
+    loadpath, figsize, savepath = '', 0, ''
     
     for o, a in opts:
         if o in ('-l', '--modelpath') and type(a)==str:
