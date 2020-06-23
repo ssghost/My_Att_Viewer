@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/ssghost/My_Att_viewer.svg?style=svg)](https://circleci.com/gh/ssghost/My_Att_Viewer)
 # My_Att_Viewer
 A visualisation plug-in for illustrating attention in RNN models.
 ## Usage
