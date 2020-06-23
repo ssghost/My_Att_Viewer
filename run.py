@@ -21,8 +21,9 @@ def main():
             assert False, 'unhandled option'    
     
     vis = Visualizer()
-    vis.read(loadpath)
-    vis.create_map(figsize, savepath)
+    if loadpath and figsize and savepath:
+        vis.read(loadpath)
+        vis.create_map(figsize, savepath)
     
 if __name__ == "__main__":
     main()
